@@ -1,11 +1,8 @@
 #! /bin/bash
-echo descargar archivo
+echo descargar archivo y copiar archivo en el directorio correspondiente
 sleep 1
+cd /etc/fonts/
 wget https://raw.githubusercontent.com/MakuSensei/Mi-Repo/master/Rende-rizado%20de%20fuentes/etc/fonts/local.conf
-sleep 1
-echo copiar archivo en el directorio correspondiente
-sleep 1
-sudo cp ~/local.conf /etc/fonts/*
 sleep 1
 echo respaldar y eliminar el escalado mapas de bit
 sleep 1
