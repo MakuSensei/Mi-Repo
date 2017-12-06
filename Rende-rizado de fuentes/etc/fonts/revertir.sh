@@ -9,6 +9,6 @@ sudo cp /etc/fonts/conf.d/10-scale-bitmap-fonts.conf.bak /etc/fonts/conf.d/10-sc
 sleep 1
 echo Resetear configuraciones de fuentes
 sleep 1
-gsettings reset org.gnome.settings-daemon.plugins.xsettings hinting "slight"
-gsettings reset org.gnome.settings-daemon.plugins.xsettings antialiasing "rgba"
+gsettings reset org.gnome.settings-daemon.plugins.xsettings hinting
+gsettings reset org.gnome.settings-daemon.plugins.xsettings antialiasing
 exit
