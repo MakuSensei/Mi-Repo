@@ -9,6 +9,8 @@ wget https://raw.githubusercontent.com/Antergos/antergos-packages/master/antergo
 sleep 1
 makepkg -i -s
 sleep 1
+sudo pacman-key --populate archlinux antergos
+sleep 1
 echo Bye Bye, Script creado por @MakuSensei
 sleep 2
 exit
